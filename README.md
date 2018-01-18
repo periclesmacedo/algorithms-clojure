@@ -1,14 +1,24 @@
 # algorithms-clojure
 
-A Clojure library designed to ... well, that part is up to you.
+A collection of algorithms done in clojure. I'm also adding multiple versions of the same algorithm, using a few different approaches.
 
 ## Usage
 
-FIXME
+To run these algorithms, you need to have clojure installed. In case you also wanna run the tests to these files, you will need leiningen as well.
 
-## License
+## How to run
 
-Copyright © 2018 FIXME
+After having clojure installed, you can run each algorithm with:
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+```
+; clojure -m <algorithm-namespace>
+clojure -m fibonacci-recur
+```
+
+To run the tests, you use:
+
+```
+lein test
+; or lein test :only fibonacci-reduce-test
+; to run the tests of only on algorithm
+```
