@@ -4,7 +4,7 @@ A collection of algorithms done in clojure. I'm also adding multiple versions of
 
 ## Usage
 
-To run these algorithms, you need to have clojure installed. In case you also wanna run the tests to these files, you will need leiningen as well.
+To run these algorithms, you need to have [clojure](https://clojure.org/guides/getting_started) installed. In case you also wanna run the tests to these files, you will need [leiningen](https://leiningen.org/) as well.
 
 ## How to run
 
